@@ -7,5 +7,6 @@ public class relational_op {
 		System.out.println(a==c);
 		System.out.println(a<=d);
 		System.out.println(a==d);
+		System.out.println(a==b);
 	}
 }
