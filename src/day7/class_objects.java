@@ -1,6 +1,7 @@
 package day7;
 
 public class class_objects {
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		Number num = new Number();
 		System.out.println(num.a=1);
