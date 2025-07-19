@@ -25,6 +25,18 @@ static int method2(int val){
 		return count;//without inbuilt method
 }
 
+
+static int method3(int val){
+	int count = 0;
+	while(val > 0) {
+		if(val%2 == 1) {
+			count++;
+		}
+		val = val/2;
+	}
+	return count;//without inbuilt method
+}
+
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 		int val = sc.nextInt();
