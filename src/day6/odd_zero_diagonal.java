@@ -2,7 +2,7 @@ package day6;
 
 import java.util.Scanner;
 
-public class prime_zero_diagonal {
+public class odd_zero_diagonal {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter row size : ");
@@ -27,10 +27,10 @@ public class prime_zero_diagonal {
 		}
 		
 		
-		System.out.println("PRIME VALUES");
+		System.out.println("EVEN VALUES");
 		for(int i = 0 ; i < arr.length ;i++) {
 			for(int j = 0 ;j < arr[i].length ; j++) {
-				if(arr[i][j] % 2 == 0) {
+				if(!(arr[i][j] % 2 == 0)) {
 					arr[i][j] = 0;
 				}
 

@@ -23,8 +23,8 @@ public class split_number {
 			rev = rev /10;
 		}
 		
-		System.out.println("ODD :"+n1);
-		System.out.println("EVEN :"+n2);
+		System.out.println("ODD :"+n2);
+		System.out.println("EVEN :"+n1);
 		sc.close();
 	}
 }
