@@ -19,7 +19,7 @@ public class unhappy_number {
 	}
 	
 public static void main(String[] args) {
-	int a = 11;
+	int a = 7;
 	if(check(a)) {
 		System.out.println("UnHappy");
 	}else {
